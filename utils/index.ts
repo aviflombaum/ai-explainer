@@ -12,7 +12,7 @@ const createPrompt = (
 ) => {
   if (inputLanguage === 'Natural Language') {
     return endent`
-    You are an expert programmer in all programming languages. Translate the natural language to "${outputLanguage}" code. Do not include \`\`\`.
+    Translate the natural language to "${outputLanguage}" code. Do not include \`\`\`.
 
     Example translating from natural language to JavaScript:
 
